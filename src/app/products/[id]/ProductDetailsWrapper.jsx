@@ -62,7 +62,12 @@ export default function ProductDetailsWrapper({ product }) {
       alert('Please select a size.');
       return;
     }
+    else{
     addToCart(product, selectedColor, selectedSize);
+      alert("item added to cart")
+
+    }
+    
   };
 
   return (
